@@ -1,6 +1,6 @@
 # AWS Servidor PHP com Laravel Framework - http://54.94.195.88/LaravelSalaminha/public/   - will be www.salaminha.com
 WebSite with Laravel Framework, PHP, CSS, HTML, JQuery - hosted in Cloud AWS with EC2(Webserver Apache Free), RDS (MySQL).
-- Criada EC2 Micro Instance Linux Ubuntu  
+- Criada EC2 Micro Instance Linux Ubuntu 20.04.2 LTS (Free Instance)
 - Srv http://54.94.195.88 
 - LAravel OK Endereço http://54.94.195.88/LaravelSalaminha/public/
 # TO install Laravel, PHP, Apache
