@@ -1,8 +1,9 @@
-# AWS Servidor PHP com Laravel Framework - http://54.94.195.88/LaravelSalaminha/public/   - will be www.salaminha.com
-WebSite with Laravel Framework, PHP, CSS, HTML, JQuery - hosted in Cloud AWS with EC2(Webserver Apache Free), RDS (MySQL).
+# AWS Servidor PHP com Laravel Framework - http://54.94.195.88/ - will be www.salaminha.com
+WebSite with Laravel Framework 8.62.0
+, PHP, CSS, HTML, JQuery - hosted in Cloud AWS with EC2(Webserver Apache Free), RDS (MySQL).
 - Criada EC2 Micro Instance Linux Ubuntu 20.04.2 LTS (Free Instance)
 - Srv http://54.94.195.88 
-- LAravel OK Endereço http://54.94.195.88/LaravelSalaminha/public/
+- LAravel OK Endereço http://54.94.195.88/
 # TO install Laravel, PHP, Apache
 ```
 sudo su
@@ -23,7 +24,7 @@ ln -s /usr/local/bin/composer /usr/bin/composer
 
 - Apos instalado ir para www e criar o Projeto Laravel
 ```
-composer create-project laravel/laravel LaravelSalaminha --prefer-dist
+composer create-project laravel/laravel LaravelSalaminha 
 ```
 - No projeto criado permit Storage
 ```
@@ -33,4 +34,14 @@ composer create-project laravel/laravel LaravelSalaminha --prefer-dist
 ```
 > SUCESSO !! 30/09/21
 
+Criar Login com Jetstream e LiveWire 
 - Proximo passo subir os fontes do Site...
+'''
+composer require laravel/jetstream
+composer require inertiajs/inertia-laravel
+php artisan jetstream:install livewire
+Documento root
+sudo vim /etc/apache2/sites-enabled/000-default.conf
+
+
+'''
