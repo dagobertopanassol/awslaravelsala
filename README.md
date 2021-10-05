@@ -42,6 +42,7 @@ composer require inertiajs/inertia-laravel
 php artisan jetstream:install livewire
 Documento root
 sudo vim /etc/apache2/sites-enabled/000-default.conf
-
-
+sudo nano /etc/apache2/apache2.conf
 '''
+Allow overhide all para URL Amigaveis - Erro URL not found 404
+ok
